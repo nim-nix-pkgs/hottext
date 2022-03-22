@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-hottext-v1_3.flake = false;
-  inputs.src-hottext-v1_3.owner = "~ehmry";
-  inputs.src-hottext-v1_3.ref   = "v1_3";
-  inputs.src-hottext-v1_3.repo  = "hottext";
-  inputs.src-hottext-v1_3.type  = "sourcehut";
+  inputs.src-hottext-trunk.flake = false;
+  inputs.src-hottext-trunk.owner = "~ehmry";
+  inputs.src-hottext-trunk.ref   = "trunk";
+  inputs.src-hottext-trunk.repo  = "hottext";
+  inputs.src-hottext-trunk.type  = "sourcehut";
   
   inputs."sdl2".owner = "nim-nix-pkgs";
   inputs."sdl2".ref   = "master";
@@ -32,10 +32,10 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-hottext-v1_3"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-hottext-trunk"];
   in lib.mkRefOutput {
     inherit self nixpkgs ;
-    src  = deps."src-hottext-v1_3";
+    src  = deps."src-hottext-trunk";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   };
