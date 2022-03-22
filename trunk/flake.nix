@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-hottext-trunk.flake = false;
+  inputs.src-hottext-trunk.ref   = "refs/heads/trunk";
   inputs.src-hottext-trunk.owner = "~ehmry";
-  inputs.src-hottext-trunk.ref   = "trunk";
   inputs.src-hottext-trunk.repo  = "hottext";
   inputs.src-hottext-trunk.type  = "sourcehut";
   
