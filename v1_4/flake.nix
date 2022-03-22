@@ -8,7 +8,7 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-hottext-v1_4.flake = false;
-  inputs.src-hottext-v1_4.ref   = "refs/tags/v1.4";
+  inputs.src-hottext-v1_4.ref   = "v1.4";
   inputs.src-hottext-v1_4.owner = "~ehmry";
   inputs.src-hottext-v1_4.repo  = "hottext";
   inputs.src-hottext-v1_4.type  = "sourcehut";
