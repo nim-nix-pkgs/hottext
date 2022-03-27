@@ -11,6 +11,7 @@
   inputs.src-hottext-v1_2.ref   = "v1.2";
   inputs.src-hottext-v1_2.owner = "~ehmry";
   inputs.src-hottext-v1_2.repo  = "hottext";
+  inputs.src-hottext-v1_2.dir   = "";
   inputs.src-hottext-v1_2.type  = "sourcehut";
   
   inputs."sdl2".owner = "nim-nix-pkgs";
