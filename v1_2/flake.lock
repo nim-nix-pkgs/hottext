@@ -315,7 +315,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
         "sdl2": "sdl2",
-        "src-hottext-trunk": "src-hottext-trunk",
+        "src-hottext-v1_2": "src-hottext-v1_2",
         "typography": "typography"
       }
     },
@@ -448,19 +448,19 @@
         "type": "github"
       }
     },
-    "src-hottext-trunk": {
+    "src-hottext-v1_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1629290744,
-        "narHash": "sha256-2lHM+7LMcTG9xoNdUlMx7H59B41d5st2iyE6XLBAWcM=",
+        "lastModified": 1619705071,
+        "narHash": "sha256-u/tyEBwtkISfzHmgVnRlH7yp7OlRwJ/Ds+erBi5cB0w=",
         "owner": "~ehmry",
         "repo": "hottext",
-        "rev": "fcd21c253ea95ae89a9669dd9660bdf552135976",
+        "rev": "b65c83d1986f2695336e65e634657750a28b8ec6",
         "type": "sourcehut"
       },
       "original": {
         "owner": "~ehmry",
-        "ref": "trunk",
+        "ref": "v1.2",
         "repo": "hottext",
         "type": "sourcehut"
       }

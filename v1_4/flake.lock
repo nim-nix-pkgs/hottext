@@ -315,7 +315,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
         "sdl2": "sdl2",
-        "src-hottext-trunk": "src-hottext-trunk",
+        "src-hottext-v1_4": "src-hottext-v1_4",
         "typography": "typography"
       }
     },
@@ -448,7 +448,7 @@
         "type": "github"
       }
     },
-    "src-hottext-trunk": {
+    "src-hottext-v1_4": {
       "flake": false,
       "locked": {
         "lastModified": 1629290744,
@@ -460,7 +460,7 @@
       },
       "original": {
         "owner": "~ehmry",
-        "ref": "trunk",
+        "ref": "v1.4",
         "repo": "hottext",
         "type": "sourcehut"
       }
