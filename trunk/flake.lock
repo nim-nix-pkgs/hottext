@@ -643,11 +643,11 @@
       },
       "locked": {
         "dir": "0_7_14",
-        "lastModified": 1668751904,
-        "narHash": "sha256-iZuIgaLpB3z5GMe1AsgGyhgdb5Rq/IRu6F0xH7HBG+A=",
+        "lastModified": 1668757251,
+        "narHash": "sha256-IdyOW/Uvnuv5M+zzgFbLTlwPaw5fa879ann7Rn3pM4k=",
         "owner": "nim-nix-pkgs",
         "repo": "typography",
-        "rev": "5129621ad00f7ba891726931b6716a6b37989df1",
+        "rev": "884f2e0bdb3baf6f623159bc1585c92280ea7975",
         "type": "github"
       },
       "original": {
